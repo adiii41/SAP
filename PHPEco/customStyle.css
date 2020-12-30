@@ -1,0 +1,68 @@
+/*
+Name: Mohammad Mahmudur Rahman
+Date: 09/22/2020
+Purpose: To modify the php page to make a nice shape
+*/
+
+
+/* To change body color*/
+body {
+    background: darkblue;
+    color: #f7f7f7;
+}
+
+/* To change heading style*/
+h2{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* To change container  properties*/
+#container{
+    margin-left: 10px;
+    width: 700px;
+    background: #0293ff;
+    padding: 5px;
+    float:left;
+}
+
+/* To change font size and weight*/
+span{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* To change alphabet color*/
+.w{
+    color:red;
+}
+.a{
+     color: blue;
+ }
+.lk{
+    color: blueviolet;
+}
+
+/* To change alphabet color*/
+#bar{
+    background:  black;
+    margin-top: 10px;
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 80%;
+}
+
+/* To change style of  mystery box*/
+#mysteryBox{
+    background: black;
+    text-align: right;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    margin-left: 50%;
+    margin-right: 46%;
+    color: white;
+    position: relative;
+}
