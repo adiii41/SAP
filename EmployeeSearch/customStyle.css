@@ -1,0 +1,124 @@
+/*
+Name :Mohammad Mahmudur  Rahman
+Date: 2020/11/30
+Subject : CIS-2288
+Assignment: 06
+This stylesheet is to customize bootstrap and shape the html elements more dynamic way
+*/
+
+body{
+    background-color: slategray;
+}
+
+/* Styling table */
+table{
+    max-width: 650px;
+    border: 1px solid black;
+}
+table th{
+    border-bottom: 1px solid black;;
+}
+table td{
+    border: 1px solid black;
+}
+
+table tr:nth-child(1){
+    background-color: black;
+    color: whitesmoke;
+}
+table th:nth-child(1),td:nth-child(4){
+    width: 20%;
+}
+table th:nth-child(2),td:nth-child(3){
+    width: 30%;
+}
+#employeeArea h2{
+    text-align: center;
+    border-bottom: 1px dashed gray;
+    margin-bottom: 15px;
+}
+#employeeArea h2, h4, a{
+    margin-left: 10px;
+}
+/*Style fieldset*/
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+    box-shadow:  0px 0px 0px 0px #000;
+}
+/* Styling legend */
+legend.scheduler-border {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    width:auto;
+    padding:0 10px;
+    border-bottom:none;
+}
+/* Styling employee area */
+#employeeArea{
+    max-width: 650px;
+    margin: 0 auto;
+    background-color: white;
+    font-size: 12px;
+    text-align: left;
+}
+
+.even{
+    background-color: white;
+}
+.odd{
+    background-color: #DFDFE6;
+}
+
+.footer{
+    margin-top: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+Button[type=submit] {
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+Button[type=submit]:hover {
+    background-color: #45a049;
+}
+
+label{
+    font-size: large;
+    color: aquamarine;
+
+}
+
+
+.active {
+    background-color: #4CAF50;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
